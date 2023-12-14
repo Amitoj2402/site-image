@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #000000; /* Set the background color for the body */
+}
+
+button {
+    font-size: 30px; /* Adjust the font size as needed */
+    padding: 15px; /* Adjust the padding as needed */
+    z-index: 1;
+    border-radius: 100%; /* Make the button circular */
+    background-color: #f52f2f95; /* Set the background color for the button */
+    color: rgb(22, 20, 20); /* Set the text color for the button */
+    border: 50px; /* Remove the default button border */
+    width: 200px; /* Set the width of the button */
+    height: 200px; /* Set the height of the button */
+    text-align: center; /* Center the text horizontally */
+
+
+}
+.container {
+    text-align: center;
+  
+}
+
+.hidden {
+    display: none;
+}
+#imageContainer img {
+    max-width: 25%; /* Set the maximum width of the image */
+    max-height: 25%; /* Set the maximum height of the image */
+}
+.background-container {
+    background-image: url('https://i.imgflip.com/6fvgqq.png');
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#displayText {
+    font-size: 30px;
+    color: #ffffff; /* Text color */
+    position: absolute;
+    top: 57%;
+    left: 51.5%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+#displayText p {
+    margin-bottom: -3vh; /* Adjust the margin as needed */
+
+}
